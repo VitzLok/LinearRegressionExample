@@ -41,7 +41,9 @@ A regressão linear busca encontrar uma reta capaz de representar a relação en
 
 A fórmula utilizada é:
 
-genui{"math_block_widget_always_prefetch_v2":{"content":"y = a + bx"}}
+$$
+y = a + bx
+$$
 
 Onde:
 
@@ -84,15 +86,17 @@ python main.py
 
 O programa solicitará um valor para realizar a previsão.
 
-Exemplo:
+### Exemplo
 
-```bash
+Entrada:
+
+```text
 Digite um valor para que seja feita a previsão: 6
 ```
 
 Saída:
 
-```bash
+```text
 A previsão foi feita e o número que equivale a Y na matriz de X é: 3.0
 ```
 
@@ -109,19 +113,27 @@ x = array([1,2,3,4,5])
 y = array([2,4,6,8,10])
 ```
 
+---
+
 ### Métodos principais
 
 #### `__correlacao()`
 
 Calcula o coeficiente de correlação entre `X` e `Y`.
 
+---
+
 #### `__inclinacao()`
 
 Calcula a inclinação da reta.
 
+---
+
 #### `__interceptacao()`
 
 Calcula o ponto onde a reta intercepta o eixo Y.
+
+---
 
 #### `previsao(valor)`
 
@@ -140,7 +152,9 @@ Y = [2,4,6,8,10]
 
 A reta encontrada seria:
 
-genui{"math_block_widget_always_prefetch_v2":{"content":"y = 2x"}}
+$$
+y = 2x
+$$
 
 ---
 
